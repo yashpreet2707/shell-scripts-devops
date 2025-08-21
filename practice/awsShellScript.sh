@@ -1,6 +1,3 @@
-aws iam list-users
-~
-"aws_resource_tracker.sh" 30L, 447B                                                                  13,6          All
 #!/bin/bash
 #
 ##################################
