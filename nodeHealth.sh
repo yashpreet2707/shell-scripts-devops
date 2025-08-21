@@ -9,6 +9,12 @@
 # Version: v1
 ################################
 
+set -x # debug mode
+set -e # exits the script when there is error 
+set -o pipefail
+
+asdltgkjasdglk | echo "hey hey"
+
 echo "Print the disk space"
 df -h
 
@@ -17,3 +23,6 @@ free -g
 
 echo "Print the cpu"
 nproc
+
+ps -ef | grep amazon | awk -F" " '{print $2}'
+
